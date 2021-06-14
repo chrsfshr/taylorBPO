@@ -449,6 +449,14 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
+.hero-text {
+  display: table; /* keep the background color wrapped tight */
+  margin: 0px auto 0px auto; /* keep the table centered */
+  padding:5px;
+  background-color:rgb(74, 74, 74, 0.5);
+  color:#ffffff;
+}
+
 #hero .button-hero {
   margin-top: 2rem;
 }
